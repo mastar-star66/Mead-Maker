@@ -1,0 +1,44 @@
+{
+  "name": "MeadCraft — Viking Brew Master",
+  "short_name": "MeadCraft",
+  "description": "A scientifically-accurate mead brewing tracker with AI recipe design, Viking-themed UI, and full offline support.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0D0A06",
+  "theme_color": "#F5C842",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle", "utilities"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "My Brews",
+      "url": "./index.html#brews",
+      "description": "View and manage your active mead batches"
+    },
+    {
+      "name": "AI Brew Companion",
+      "url": "./index.html#ai",
+      "description": "Get AI-designed mead recipes"
+    }
+  ]
+}
